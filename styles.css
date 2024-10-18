@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.4em;
+    color: #333;
+    margin: 0;
+}
+
+header p {
+    color: #666;
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.profile-summary p, ul li {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer p {
+    color: #777;
+    font-size: 0.9em;
+}
